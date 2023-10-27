@@ -1,0 +1,69 @@
+The average square meter price of real estate 172000
+The price of the cheapest property 4620000
+Average Square meter value per room of the most expensive apartment in Budapest 250750
+The total price of property 232703000
+
+List of condominium properties whose total price does not exceed the average price of properties => 23270300
+[
+PANEL
+Floor => 0
+IsInsulated => true
+City => Debrecen
+Price => 120000
+Square meter => 35
+Number of rooms => 2
+Genre => CONDOMINIUM
+Total Price => 4620000
+Average sqm per room => 17
+, 
+REAL ESTATE
+City => Nyiregyhaza
+Price => 110000
+Square meter => 60
+Number of rooms => 2
+Genre => FARM
+Total Price => 6616500
+Average sqm per room => 30
+, 
+REAL ESTATE
+City => Kisvarda
+Price => 150000
+Square meter => 50
+Number of rooms => 2
+Genre => CONDOMINIUM
+Total Price => 7500000
+Average sqm per room => 25
+, 
+PANEL
+Floor => 4
+IsInsulated => true
+City => Nyiregyhaza
+Price => 150000
+Square meter => 68
+Number of rooms => 4
+Genre => CONDOMINIUM
+Total Price => 10710000
+Average sqm per room => 17
+, 
+PANEL
+Floor => 4
+IsInsulated => false
+City => Budapest
+Price => 180000
+Square meter => 70
+Number of rooms => 3
+Genre => CONDOMINIUM
+Total Price => 12600000
+Average sqm per room => 23
+, 
+PANEL
+Floor => 7
+IsInsulated => false
+City => Nyiregyhaza
+Price => 170000
+Square meter => 80
+Number of rooms => 3
+Genre => CONDOMINIUM
+Total Price => 13600000
+Average sqm per room => 26
+]

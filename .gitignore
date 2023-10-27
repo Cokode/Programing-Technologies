@@ -1,0 +1,9 @@
+.vscode/
+.idea/
+.DS_Store
+.project
+.settings/
+*.class
+*.pyc
+node_modules/
+*.dll, *.exe, *.so
