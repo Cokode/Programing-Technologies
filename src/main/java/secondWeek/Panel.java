@@ -24,27 +24,29 @@ public class Panel extends RealEstate implements PanelInterface {
     }
 
     @Override
-    public long roomPrice() {
-        return ((long) this.price * sqm) / numberOfRooms;
+    public double roomPrice() {
+        return ((double) price * sqm) / numberOfRooms;
     }
 
     @Override
     public long totalPrice() {
-        long total = (long) this.price * sqm;
-        long isInsulated = (long) (((0.1) * 5) * (total / 10));
-        if (this.isInsulated) total += isInsulated;
+        long total = (long) price * sqm;
+        double forInsulated = (0.05 *  total);
+
+        if (isInsulated) total += forInsulated;
 
         if (floor <= 2) {
-            return total + isInsulated;
+            total += forInsulated;
         } else if (floor >= 10) {
-            return total - isInsulated;
+            total -= forInsulated;
         }
         return total;
     }
 
     @Override
     public String toString() {
-        String forma = "\nPANEL\nFloor => %d\nIsInsulated => %b\nCity => %s\nPrice => %d\nSquare meter => %d\nNumber of rooms => %d\nGenre => %s\nTotal Price => %d\nAverage sqm per room => %d\n";
+        String forma
+                = "\nPANEL\nFloor => %d\nIsInsulated => %b\nCity => %s\nPrice => %d\nSquare meter => %d\nNumber of rooms => %d\nGenre => %s\nTotal Price => %d\nAverage sqm per room => %d\n";
 
         return String.format(forma,
                 floor,

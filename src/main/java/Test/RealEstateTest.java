@@ -18,9 +18,14 @@ public class RealEstateTest {
        assertEquals(expected, actual);
     }
 
-    public void showDiscount () {
-
+    @Test
+    public void averageSqmPerRoom () {
+        int actual = underTest.average();
+        int expected = 56;
+        assertEquals(expected, actual);
     }
+
+
 
 
 }
