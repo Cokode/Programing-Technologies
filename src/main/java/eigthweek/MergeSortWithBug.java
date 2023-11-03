@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.logging.Logger;
 
-public class MergeSort {
+public class MergeSortWithBug {
 
     public static Random rand = new Random();
 
@@ -15,13 +15,12 @@ public class MergeSort {
      *           - 'array' is unchanged.
      **/
     public static int[] sort(int[] array) {
-        return sort(array, 0, array.length-1);
+        return sort(array, 0, array.length - 1);
     }
 
     public static int[] sort(int[] array, int from, int to) {
-
         if (from >= to) {
-            return new int[] {array[from] };
+            return new int[] { array[from] };
         }
 
         int m = (from + to) / 2;
@@ -33,7 +32,8 @@ public class MergeSort {
         int ri = 0;
 
         for (int i = 0; i < result.length; i++) {
-            if (li < left.length && (ri >= right.length || left[li] < right[ri])) {
+            if (li < left.length
+                    && (ri >= right.length || left[li] < right[ri])) {
                 result[i] = left[li];
                 li++;
             } else {
@@ -71,29 +71,15 @@ public class MergeSort {
         return true;
     }
 
-    public static void showMe (int one) {
-        one += 1;
-        if(one >= 10) {
-            System.out.println(one);
-            return;
-        }
-        showMe(one);
-        //System.out.println("After we break out of the recursion");
-        Logger.getGlobal().info("\nAbout to return from find one = " + one);
-    }
-
     public static void main(String[] arg) {
-
-        showMe(2);
         int[] array = {1,2,10,4,42,67,8};
 
-        // sort(array);
 
-//        if (isSorted(sort(array)) && isPermutation(array, sort(array)))
-//            System.out.println("The array is sorted.");
-//        else {
-//            System.out.println("The array is not sorted.");
-//        }
+        if (isSorted(sort(array)) && isPermutation(array, sort(array)))
+            System.out.println("The array is sorted.");
+        else {
+            System.out.println("The array is not sorted.");
+        }
     }
 
 }
