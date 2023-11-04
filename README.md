@@ -1,6 +1,6 @@
 # PROGRAMING TECHNOLOGIES
-> Course projects from Vályi Sándor Zoltán (PhD) assoc. prof.,
->> **University of Nyíregyháza**
+> **Course projects from Vályi Sándor Zoltán (PhD) assoc. prof.,**
+>> University of Nyíregyháza
 
 
 ## Folder Contents.
