@@ -35,7 +35,7 @@
     and the information about these properties is written into a file.
 
 * **Third Week**
-  > **Saterlight Image**
+  > **Real Estate Project main class**
   > [open source code ](https://github.com/Cokode/Programing-Technologies/blob/main/src/main/java/thirdWeek/RealEstates.java)
 
 ```
@@ -44,8 +44,8 @@
 
 ```
 
-* **Third Week**
-  > **Saterlight Image**
+* **Fourth Week**
+  > ** Working with Maven, Taking input from Command Line Interface (CLI)/ Terminal **
   > [open source code ](https://github.com/Cokode/Programing-Technologies/blob/main/src/main/java/thirdWeek/RealEstates.java)
 
 ```
