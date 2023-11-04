@@ -48,7 +48,7 @@
 
 ```
     In this course we learnt about version control,
-Git, GitHub, Maven and working with dependencies, 
+    Git, GitHub, Maven and working with dependencies, 
 
 ```
 
