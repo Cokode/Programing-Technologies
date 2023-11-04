@@ -2,8 +2,6 @@
 > Course projects from Vályi Sándor Zoltán (PhD) assoc. prof.,
 
 
-
-
 ## Folder Contents.
 * **First Week**
   > **Saterlight Image**
@@ -49,7 +47,8 @@
   > [Goto src page](https://github.com/Cokode/maven-project)
 
 ```
-    In this course we learnt about version control, Git, GitHub, Maven and working with dependencies, 
+    In this course we learnt about version control,
+Git, GitHub, Maven and working with dependencies, 
 
 ```
 
