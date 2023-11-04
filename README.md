@@ -39,21 +39,41 @@
   > [open source code ](https://github.com/Cokode/Programing-Technologies/blob/main/src/main/java/thirdWeek/RealEstates.java)
 
 ```
-  The class provides methods to read data from a file,
-  add objects to a TreeSet, and write the TreeSet's information to another file
+    The class provides methods to read data from a file,
+    add objects to a TreeSet, and write the TreeSet's information to another file
 
 ```
 
 * **Fourth Week**
-  > ** Working with Maven, Taking input from Command Line Interface (CLI)/ Terminal **
-  > [open source code ](https://github.com/Cokode/Programing-Technologies/blob/main/src/main/java/thirdWeek/RealEstates.java)
+  > **Working with Maven, Taking input from Command Line Interface (CLI)/ Terminal**
+  > [Goto src page](https://github.com/Cokode/maven-project)
 
 ```
-  The class provides methods to read data from a file,
-  add objects to a TreeSet, and write the TreeSet's information to another file
+    In this course we learnt about version control, Git, GitHub, Maven and working with dependencies, 
 
 ```
 
+* **Fifth Week**
+  > **Collection | Generics | Built in classes | Interfaces**
+  > [open source code ](https://github.com/Cokode/Programing-Technologies/blob/main/src/main/java/fifthWeek/ArrayListExercises.java)
 
-moved test classes from src/main/java ->  src/test/java 
+    **Problems solved concerning collections:**
+  - ArrayList
+  - LinkedList
+  - HashSet
+  - TreeSet
 
+>>
+* **Eigth Week**
+  > **Debugging | Logging | JUnit 5| Unit Testing**
+  > [open source code ](https://github.com/Cokode/Programing-Technologies/blob/main/src/main/java/fifthWeek/ArrayListExercises.java)
+
+    **Practicaly implemetination of the above topics**
+  - [Debuged a mergeSort algorithmn](https://github.com/Cokode/Programing-Technologies/blob/main/src/main/java/eigthweek/MergeSortBugFixed.java)
+  - [Implementing `Unit Test` on _week_2_&_3_project_](https://github.com/Cokode/Programing-Technologies/tree/main/src/main/java/secondWeek)
+  - [Implementing `Logging` on existing project](https://github.com/Cokode/Programing-Technologies/tree/main/src/main/java/secondWeek)
+
+
+>>
+>>
+Thank you for viewing my repo, for questions please [email me](contactmrc$@gmail.com) 
